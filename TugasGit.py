@@ -41,7 +41,5 @@ data_panen = {
     }
 }
 
-for i,j in data_panen.items():
-    print(f"\n{i}")
-    print(f"nama lokasi: {j['nama_lokasi']}")
-    print(f"hasil panen: {j['hasil_panen']}")
+nama_lokasi3=(data_panen['lokasi3']['nama_lokasi'])
+print(f"nama lokasi 3: {nama_lokasi3} ")
